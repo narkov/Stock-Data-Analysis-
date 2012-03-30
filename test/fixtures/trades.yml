@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2012-03-30
+  time: 2012-03-30 23:31:32
+  open: 1.5
+  close: 1.5
+
+two:
+  date: 2012-03-30
+  time: 2012-03-30 23:31:32
+  open: 1.5
+  close: 1.5

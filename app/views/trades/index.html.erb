@@ -1,0 +1,26 @@
+<h1>Listing trades</h1>
+
+<table>
+  <tr>
+    <th>Time</th>
+    <th>Volume</th>
+    <th>Open</th>
+    <th>Close</th>
+    <th>Min</th>
+    <th>Max</th>
+  </tr>
+
+<%= paginate @trades %>
+
+<% @trades.each do |trade| %>
+  <tr>
+	<td><%= trade.time.to_s(:time)  %></td>
+	<td><%= trade.volume %></td>
+	<td><%= trade.open %></td>
+	<td><%= trade.close %></td>
+	<td><%= trade.min %></td>
+	<td><%= trade.max %></td>
+  </tr>
+<% end %>
+</table>
+
