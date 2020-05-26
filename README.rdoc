@@ -1,2 +1,3 @@
 == Stock Data in rails sample
 
+just some trading/stocks attempts in RoR 
